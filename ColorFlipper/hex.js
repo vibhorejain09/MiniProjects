@@ -5,7 +5,7 @@ const color = document.querySelector(".color");
 btn.addEventListener('click', function(){
     //const randomNumber = getRandomNumber(); //get random number in the array colors
     //console.log(randomNumber);
-    let hexColors = "#cle";
+    let hexColors = "#";
     for (let i=0; i<6; i++) {
         hexColors += hex[getRandomNumber()]
     }
