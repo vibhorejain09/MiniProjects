@@ -1,0 +1,35 @@
+h1{
+    font-size: 64px;
+}
+body {
+    min-height: 500px;
+    display: grid;
+    place-items: center;
+    background-color: #cce6ff;
+  }
+.container {
+    text-align: center;
+  }
+#count {
+    font-size: 96px;
+    font-weight: bold;
+  }
+.btn {
+    text-transform: uppercase;
+    background: transparent;
+    color: #000000;
+    padding: 6px 12px;
+    letter-spacing: 1.6px;
+    display: inline-block;
+    transition: all 0.3s linear;
+    font-size: 14px;
+    border: 2px solid #000000;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    margin: 8px;
+  }
+  .btn:hover {
+    color: #FFFFFF;
+    background: #000000;
+  }
