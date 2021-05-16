@@ -1,47 +1,47 @@
 h2{
-    color: white;
-    font-size: 32px;
+  color: white;
+  font-size: 32px;
 }
 h1{
-    font-size: 64px;
-    color: rgb(20,193,203);
+  font-size: 64px;
+  color: rgb(20,193,203);
 }
 
 body {
-    min-height: 500px;
-    display: grid;
-    place-items: center;
-    background-color: #151320;
-  }
+  min-height: 500px;
+  display: grid;
+  place-items: center;
+  background-color: #151320;
+}
 .shift{
-    text-align: center;
+  text-align: center;
 }
 .container {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-    border: 1px solid #151320;
-    padding: 10px;
-    background-color: #151320;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  border: 1px solid #151320;
+  padding: 10px;
+  background-color: #151320;
 }
 .btn {
-    text-transform: uppercase;
-    background: transparent;
-    color: rgb(20,193,203);
-    padding: 6px 12px;
-    letter-spacing: 1.6px;
-    display: inline-block;
-    transition: all 0.3s linear;
-    font-size: 14px;
-    border: 2px solid rgb(20,193,203);
-    cursor: pointer;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    margin: 8px;
-  }
-  .btn:hover {
-    color: #151320;
-    background: rgb(20,193,203);
-  }
+  text-transform: uppercase;
+  background: transparent;
+  color: rgb(20,193,203);
+  padding: 6px 12px;
+  letter-spacing: 1.6px;
+  display: inline-block;
+  transition: all 0.3s linear;
+  font-size: 14px;
+  border: 2px solid rgb(20,193,203);
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  margin: 8px;
+}
+.btn:hover {
+  color: #151320;
+  background: rgb(20,193,203);
+}
