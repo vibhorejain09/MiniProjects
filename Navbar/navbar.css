@@ -115,3 +115,71 @@ nav {
       color:#333;
   }
 }
+
+/*modal css*/
+.container {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  padding: 4rem 0;
+  color: rgb(20,193,203);
+}
+.modal-btn{
+  margin-top: 2rem;
+  background-color: transparent;
+  border: 1px rgb(20,193,203) solid;
+  color: rgb(20,193,203);;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+.modal-btn:hover {
+  background-color: rgb(20,193,203);
+  color: #151320;
+}
+
+.modal {
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+.modal-container {
+  visibility: hidden;
+  z-index: -1;
+  background-color: rgb(20,193,203);;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+.show-modal {
+  visibility: visible;
+  z-index: 1;
+}
+.modal-content {
+  font-size: 1.5rem;
+  padding-top: 20px;
+  color:#151320;
+  padding-bottom: 20px;
+}
+ .close-btn{
+   color: #151320;
+   font-size: 1rem;
+   background-color: transparent;
+   top: 1rem;
+   right: 1rem;
+   border: none;
+   position: absolute;
+ }
+ .close-btn:hover{
+   color: red;
+ }
+ @media screen and (max-width: 700px) {
+  .modal-container {
+      width: 95%;
+  }
+}
