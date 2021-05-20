@@ -1,0 +1,175 @@
+body{
+    background-color: black;
+    font-size: Arial , sans-serif;
+}
+nav{
+    text-align: right;
+}
+.menu-items {
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: -16px;
+    margin-right: 16px;
+}
+.menu-items:hover {
+    text-decoration: underline;
+}
+.material-icons{
+    color: white;
+}
+.material-icons:hover{
+    background-color: gray;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#profile-pic {
+    width: 32px;
+    height: 32px;
+}
+#profile-pic:hover{
+    background-color: gray;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#dropdown-menu {
+    position: relative;
+    top: -8px;
+    margin-right: 16px;
+}
+
+section {
+    text-align: center;
+    padding-top: 10%;
+}
+#input-wrapper{
+    position: relative;
+    width: 582px;
+    display: inline-block;
+}
+#search-box{
+    width: 100%;
+    color: #222;
+    border: 1px solid #D3D3D3;
+    font-size: 13px;
+    padding: 14px;
+    border-radius: 24px;
+    outline: none;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding-left: 24px;
+    background-color: #D3D3D3;
+}
+::placeholder{
+    color:black;
+}
+
+#input-wrapper .fa-microphone{
+    position: absolute;
+    right: -24px;
+    top: 36px;
+    width: 28px;
+}
+#input-wrapper .fa-keyboard-o{
+    position: absolute;
+    right: 0px;
+    top: 36px;
+    width: 28px;
+}
+#input-wrapper .fa-search{
+    position: absolute;
+    left: 0;
+    top: 36px;
+    width: 28px;
+}
+#search-box:hover{
+    box-shadow: 0 1px 6px 0 white;
+    border-color: white;
+}
+#search-box:focus{
+    box-shadow: 0 1px 6px 0 white;
+    border-color: white;
+}
+.fa-search
+{
+    color: black;
+}
+.fa-keyboard-o{
+    color: black;
+}
+.fa-microphone{
+    color: black;
+}
+.fa-search:hover{
+    cursor: pointer;
+}
+.fa-keyboard-o:hover{
+    cursor: pointer;
+}
+.fa-microphone:hover{
+    cursor: pointer;
+}
+.custom-btn {
+    background-color: #D3D3D3;
+    color: #5F6368;
+    font-size: 14px;
+    height: 36px;
+    padding: 0 16px;
+    background-image: linear-gradient(top, #f5f5f5, #f1f1f1);
+    border: 1px solid transparent;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
+    color: #222;
+}
+.custom-btn:hover {
+    background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #222;
+    cursor: pointer;
+}
+
+.custom-btn:first-of-type {
+    margin-right: 16px;
+}
+
+#dropdown-wrapper {
+    display: inline-block;
+}
+#app-dropdown {
+    width: 285px;
+     padding: 28px; 
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    right: 60px;
+    display: none;
+    background-color: white;
+}
+#dropdown-wrapper:hover #app-dropdown {
+    display: block;
+    z-index: 1;
+}
+.app-item {
+    display: inline-block;
+    width: 84px;
+    padding: 8px 2px;
+    text-align: center;
+}
+.app-item > img {
+    width: 50px;
+    height: 50px;
+}
+.app-item > p {
+    color: rgba(0, 0, 0, 0.87);
+}
+.app-item:hover {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+@media screen and (max-width:750px) {
+    #input-wrapper {
+        width: 80%;
+    }
+}
