@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0px;
+}
+@keyframes bg-transition{
+  0% {background-color:#004242;}
+  100%  {background-color: #002633;}    
+  100% {background-color: #1c2841;}
+}
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    animation-name: bg-transition;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+}
+.head {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 20px;
+}
+.intro{
+     width: 90%;
+     margin: 0 auto;
+     text-align: center;
+}
+a {
+    text-decoration: none;
+}
+.myself{
+    border-radius: 50%;
+    width: 200px;
+    padding-top: 20px;
+}
+p{
+    color: rgb(20,193,203);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1.5fr));
+    padding-top: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    grid-gap: 40px;
+}
+.card{
+    border-radius: 20px;
+    background-color: rgb(20,193,203);   
+}
+.container {
+    position: relative;
+}
+
+img {
+    width: 100%;
+    display: block;
+    border-radius: 20px 20px 0 0;
+}
+
+.container:after {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px 20px 0 0;
+}
+
+.info {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.info > h3 {
+    color: #151320;;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px 0 20px 0;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+@media screen and (max-width : 850px) {
+    .head {
+        grid-template-columns: minmax(0, 1fr);
+    }
+    .cards{
+        padding-top: 600px;
+    }
+}
+@media screen and (min-width:400px) and (max-width:450px) {
+    .cards{
+        padding-top: 850px;
+    }
+}
+@media screen and (min-width:350px) and (max-width:399px) {
+    .cards{
+        padding-top: 900px;
+    }
+}
+@media screen and (max-width : 349px) {
+    .cards{
+        padding-top: 1000px;
+    }
+}
+@media screen and (min-width:1000px) and (max-width:1050px) {
+    .cards{
+        padding-top: 500px;
+    }
+}
+@media screen and (min-width:500px) and (max-width:550px) {
+    .cards{
+        padding-top: 750px;
+    }
+}
