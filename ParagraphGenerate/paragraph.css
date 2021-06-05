@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: #151320;
+    color: rgb(20,193,203);
+}
+.section-center {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 40rem;
+    margin-top: 5rem;
+    text-align: center;
+  }
+  h3 {
+    text-transform: uppercase;
+    color: rgb(20,193,203);
+    margin-bottom: 24px;
+    font-size: 30px;
+  }
+  .lorem-form {
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    margin-top: 24px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(20,193,203);
+  }
+  label{
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 20px;
+  }
+  input {
+    padding: 0.5rem 1rem;
+    width: 8rem;
+    border-radius: 20px;
+    border: none;
+    margin: 0 0.5rem;
+    font-size: 1.25rem;
+  }
+  ::placeholder{
+      color: #808080;
+  }
+ .btn{
+    background: transparent;
+    border-color: transparent;
+    color: rgb(20,193,203);
+    font-size: 30px;
+ }
+ .btn:hover{
+     cursor:pointer;
+     color: white;
+ }
+ .result{
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    font-size: 20px;
+ }
