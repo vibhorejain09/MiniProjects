@@ -31,7 +31,11 @@ a {
 }
 .card{
     border-radius: 20px;
-    background-color: rgb(20,193,203);   
+    background-color: rgb(20,193,203);
+    transition: all 0.2s ease-in-out;   
+}
+.card:hover{
+    transform: scale(1.1);
 }
 .container {
     position: relative;
